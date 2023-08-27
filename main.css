@@ -98,6 +98,10 @@ section {
     color: white;
 }
 
+.display {
+    display: none;
+}
+
 .burger-menu {
     display: none;
     flex-direction: column;
