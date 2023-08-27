@@ -71,9 +71,12 @@ section {
     background-color: none;
     border: none;
     padding: 10px 25px;
+    border: 1px solid #4F3CC8;
+    border-radius: 8px;
 }
 
 .btn1 a {
+    font-family: 'Clash Display';
     color: #4F3CC8;
 }
 
@@ -85,6 +88,7 @@ section {
 }
 
 .btn2 a {
+    font-family: 'Clash Display';
     color: white;
 }
 
