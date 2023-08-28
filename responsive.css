@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        transition: all 0.3s;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 0;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}

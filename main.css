@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Clash Display;
+    src: url(/assests/fonts/ClashDisplay-Light.ttf) format('ttf');
+    src: url(/assests/fonts/ClashDisplay-Bold.ttf) format('ttf');
+    src: url(/assests/fonts/ClashDisplay-Medium.ttf) format('ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Clash Display';
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    gap: 100px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    padding: 10px 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4F3CC8;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+    background-color: none;
+    border: none;
+    padding: 10px 25px;
+}
+
+.btn1 a {
+    color: #4F3CC8;
+}
+
+.btn2 {
+    background-color: #4F3CC8;
+    border-radius: 8px;
+    padding: 10px 25px;
+    border: none;
+}
+
+.btn2 a {
+    color: white;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #4F3CC8;
+    margin: 3px 0;
+}
