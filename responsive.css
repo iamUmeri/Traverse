@@ -57,10 +57,10 @@
         display: none;
         flex-direction: column;
         background-color: white;
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: 70px;
-        left: 10;
+        left: 0;
         transition: all 0.3s;
     }
 
@@ -111,10 +111,10 @@
         display: none;
         flex-direction: column;
         background-color: white;
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: 70px;
-        left: 10;
+        left: 0;
         transition: all 0.3s;
     }
 
@@ -178,10 +178,10 @@
         display: none;
         flex-direction: column;
         background-color: white;
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: 70px;
-        left: 10;
+        left: 0;
         transition: all 0.3s;
     }
 
@@ -245,10 +245,10 @@
         display: none;
         flex-direction: column;
         background-color: white;
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: 70px;
-        left: 10;
+        left: 0;
         transition: all 0.3s;
     }
 
@@ -312,10 +312,10 @@
         display: none;
         flex-direction: column;
         background-color: white;
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: 70px;
-        left: 10;
+        left: 0;
         transition: all 0.3s;
     }
 
