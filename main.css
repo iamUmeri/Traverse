@@ -22,7 +22,7 @@ body {
     padding: 10px;
     background-color: white;
     color: black;
-    gap: 150px;
+    gap: 100px;
     /* box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.363); */
 }
 
@@ -198,4 +198,115 @@ body {
 .hero-btn2 a {
     font-family: 'Clash Display';
     color: #fff;
+}
+
+marquee {
+    margin: 70px 0px;
+    background-color: white;
+}
+
+marquee>div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.gigm {
+    width: 50px;
+}
+
+.eko {
+    width: 180px;
+}
+
+.bolt {
+    width: 60px;
+}
+
+.arik {
+    width: 130px;
+}
+
+.bon-hotel {
+    width: 60px;
+}
+
+.uber {
+    width: 60px;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.sub-text {
+    color: #6952FF;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.banner-heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.exceptional {
+    color: #6952FF;
+}
+
+.main-text {
+    font-size: 15px;
+    font-family: 'Poppins';
+    margin-top: 20px;
+}
+
+.online{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 24px;
+    background: #C8E5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-one{
+    width: 64px;
+    height: 64px;
+    border-radius: 24px;
+    background: #FFEACD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-one{
+    width: 48px;
+    height: 48px;
+}
+
+.icon-two{
+    width: 64px;
+    height: 64px;
+    border-radius: 24px;
+    background: #CBC4F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.svg-two{
+    width: 48px;
+    height: 48px;
 }
