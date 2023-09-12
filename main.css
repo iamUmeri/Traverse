@@ -549,10 +549,10 @@ marquee>div {
 }
 
 .first-name input {
-    width: 347px;
+    width: 200px;
     background: none;
     border: none;
-    background: #4F3CC8;
+    border-bottom: 1px solid #4F3CC8;
 }
 
 .surname {
