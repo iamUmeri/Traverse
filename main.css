@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Museo Sans';
+    font-family: 'Clash Display';
 }
 
 .all-section {
@@ -87,6 +87,7 @@ body {
 }
 
 .btn2 a {
+    font-family: 'Clash Display';
     color: white;
 }
 
@@ -192,11 +193,13 @@ body {
 }
 
 .hero-btn1 a {
+    font-family: 'Clash Display';
     color: #4F3CC8;
     font-weight: 500;
 }
 
 .hero-btn2 a {
+    font-family: 'Clash Display';
     color: #fff;
 }
 
@@ -348,6 +351,7 @@ marquee>div {
 
 .p-heading {
     color: #000;
+    font-family: SF Pro Display;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -367,6 +371,7 @@ marquee>div {
     font-size: 35px;
     color: #000;
     text-align: center;
+    font-family: SF Pro Display;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -375,6 +380,7 @@ marquee>div {
 
 .exceptional {
     color: #6952FF;
+    font-family: SF Pro Display;
 }
 
 .main-text {
@@ -393,6 +399,7 @@ marquee>div {
 
 .banner-one-heading {
     color: #1E293D;
+    font-family: SF Pro Display;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -401,6 +408,7 @@ marquee>div {
 
 .sub-text {
     color: #6952FF;
+    font-family: SF Pro Display;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -431,6 +439,7 @@ marquee>div {
 
 .banner-one-btn a {
     color: #FFF;
+    font-family: Clash Display;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -469,6 +478,7 @@ marquee>div {
 
 .banner-two-btn a {
     color: #FFF;
+    font-family: Clash Display;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -481,6 +491,7 @@ marquee>div {
 }
 
 .contact {
+    font-family: SF Pro Display;
     color: #4F3CC8;
     font-size: 13px;
     font-style: normal;
@@ -490,6 +501,7 @@ marquee>div {
 
 .banner-three-heading {
     color: #4F3CC8;
+    font-family: SF Pro Display;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -498,6 +510,7 @@ marquee>div {
 
 .message {
     color: #4F3CC8;
+    font-family: SF Pro Display;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -652,6 +665,7 @@ marquee>div {
 
 .input-btn a {
     color: #FFF;
+    font-family: Clash Display;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
