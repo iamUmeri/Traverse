@@ -371,7 +371,7 @@ marquee>div {
     font-size: 35px;
     color: #000;
     text-align: center;
-    font-family: SF Pro Display;
+    font-family: 'Poppins';
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -380,7 +380,7 @@ marquee>div {
 
 .exceptional {
     color: #6952FF;
-    font-family: SF Pro Display;
+    font-family: 'Poppins';
 }
 
 .main-text {
@@ -399,7 +399,7 @@ marquee>div {
 
 .banner-one-heading {
     color: #1E293D;
-    font-family: SF Pro Display;
+    font-family:'Poppins';
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -408,7 +408,7 @@ marquee>div {
 
 .sub-text {
     color: #6952FF;
-    font-family: SF Pro Display;
+    font-family: 'Poppins';
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -439,7 +439,7 @@ marquee>div {
 
 .banner-one-btn a {
     color: #FFF;
-    font-family: Clash Display;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -478,7 +478,7 @@ marquee>div {
 
 .banner-two-btn a {
     color: #FFF;
-    font-family: Clash Display;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -491,7 +491,7 @@ marquee>div {
 }
 
 .contact {
-    font-family: SF Pro Display;
+    font-family: 'Poppins';
     color: #4F3CC8;
     font-size: 13px;
     font-style: normal;
@@ -501,7 +501,7 @@ marquee>div {
 
 .banner-three-heading {
     color: #4F3CC8;
-    font-family: SF Pro Display;
+    font-family: 'Poppins';
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -510,7 +510,7 @@ marquee>div {
 
 .message {
     color: #4F3CC8;
-    font-family: SF Pro Display;
+    font-family:'Poppins';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -544,7 +544,7 @@ marquee>div {
 
 .first-name {
     color: #4F3CC8;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -557,7 +557,7 @@ marquee>div {
     border: none;
     border-bottom: 1px solid #1E293D;
     color: rgba(0, 0, 0, 0.60);
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -567,7 +567,7 @@ marquee>div {
 
 .surname {
     color: #4F3CC8;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -581,7 +581,7 @@ marquee>div {
     border: none;
     border-bottom: 1px solid #1E293D;
     color: rgba(0, 0, 0, 0.60);
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -591,7 +591,7 @@ marquee>div {
 
 .email {
     color: #4F3CC8;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -616,7 +616,7 @@ marquee>div {
 
 .subject {
     color: #4F3CC8;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -641,7 +641,7 @@ marquee>div {
 
 .input-text {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 11px;
     font-style: normal;
     font-weight: 300;
@@ -665,7 +665,7 @@ marquee>div {
 
 .input-btn a {
     color: #FFF;
-    font-family: Clash Display;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -696,7 +696,7 @@ marquee>div {
 
 .banner-four-text p {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -706,7 +706,7 @@ marquee>div {
 
 .join {
     color: #4F3CC8;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: italic;
     font-weight: 500;
@@ -728,7 +728,7 @@ marquee>div {
 
 .join-btn a {
     color: #FFF;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
