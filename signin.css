@@ -1,0 +1,171 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: poppins;
+     margin-top: 0.4rem;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     margin-left: 3rem;
+}
+.content{
+     width: 40%;
+}
+.logo{
+     margin-left: 6.5rem;
+     margin-bottom: 2rem;
+}
+.login{
+     color: #4f3cca;
+     font-size: 15px;
+     margin-bottom: 2rem;
+}
+
+.placeholders{
+     width: 100%;
+     margin-bottom: 1.5rem;
+     font-size: 17.5px;
+}
+.placeholders input{
+     border: none;
+     border-bottom: 1px solid gray;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     width: 100%;
+     font-size: 13px;
+} 
+.remember{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.check{
+     display: flex;
+     align-items: center;
+     gap: 0.4rem;
+     font-size: 13px;
+     font-weight: 400;
+}
+.remember a{
+     text-decoration: none;
+     font-size: 15px;
+}
+.btn{
+     display: flex;
+     justify-content: center;
+     margin-top: 1.5rem;
+}
+.btn button{
+     padding: 1.2rem 6rem;
+     background: #4f3cca;
+     border: none;
+     border-radius: 5px;
+     color: white;
+}
+.or{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 2rem;
+}
+.icons{
+     display: flex;
+     justify-content: center;
+     margin-top: 1.8rem;
+     gap: 4rem;
+}
+.icons img{
+     width: 45px;
+     
+}
+.SignUp{
+     margin-top: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 16px;
+     gap: 0.3rem;
+}
+.SignUp a{
+     text-decoration: none;
+     font-size: 16px;
+     margin-top: -1px;
+}
+.img{
+     margin-top: -2rem;
+}
+
+@media (max-width: 768px) and (min-width: 321px){
+     .logo{
+          margin-left: 10rem;
+     }
+     .content{
+          width: 70%;
+     }
+     .img{
+          display: none;
+     }
+}
+@media (max-width: 425px){
+     .logo{
+          margin-left: 6rem;
+     }
+     .content{
+          width: 70%;
+     }
+     .remember a{
+          font-size: 10px;
+     }
+     .btn button{
+          padding: 1.2rem 4rem;
+     }
+     .or img{
+          width: 80px;
+     }
+     .img{
+          display: none;
+     }
+}
+@media (max-width: 375px){
+     form{
+          display: flex;
+          justify-content: center;
+     }
+     .btn button{
+          padding: 1.2rem 3rem;
+     }
+     .icons img{
+          width: 30px;
+     }
+}
+@media (max-width: 320px){
+     .logo{
+          margin-bottom: 1rem;
+     }
+     .logo img{
+          width: 90px;
+     }
+     .login h1{
+          font-size: 15px;
+     }
+     .placeholders label{
+          font-size: 15px;
+     }
+     .btn button{
+          padding: 1rem 2.5rem;
+          font-size: 10px;
+     }
+     .icons{
+          gap: 1.5rem;
+     }
+     .SignUp{
+          font-size: 10px;
+     }
+     .SignUp a{
+          font-size: 10px;
+     }
+}
