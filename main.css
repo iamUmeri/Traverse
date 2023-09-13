@@ -135,7 +135,7 @@ body {
     font-weight: 700;
     color: #1E293D;
     line-height: 50px;
-    
+
 }
 
 .best-place {
@@ -391,7 +391,7 @@ marquee>div {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 100px;
     gap: 100px;
 }
 
@@ -447,7 +447,7 @@ marquee>div {
     align-items: center;
     justify-content: center;
     gap: 70px;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .banner-two-img {
@@ -483,7 +483,7 @@ marquee>div {
 
 .banner-three-text {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .contact {
@@ -522,27 +522,26 @@ marquee>div {
 
 .inputs {
     width: 650px;
-    height: 300px;
 }
 
 .name {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
 }
 
 .contact-img {
     width: 500px;
     height: 333.333px;
     flex-shrink: 0;
-    background: url(/Traverse/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
 }
 
 .first-name {
     color: #4F3CC8;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -552,32 +551,242 @@ marquee>div {
     width: 200px;
     background: none;
     border: none;
-    border-bottom: 1px solid #4F3CC8;
+    border-bottom: 1px solid #1E293D;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
 }
 
 .surname {
     color: #4F3CC8;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-right: 10px;
+}
+
+.surname input {
+    width: 200px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #1E293D;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
 }
 
 .email {
     color: #4F3CC8;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.email input {
+    width: 500px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #1E293D;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
 }
 
 .subject {
     color: #4F3CC8;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.subject input {
+    width: 500px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #1E293D;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.input-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.input-btn {
+    display: inline-flex;
+    width: 110px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4F3CC8;
+    border: none;
+    margin-top: 10px;
+}
+
+.input-btn a {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-four {
+    width: 1110px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: rgba(217, 217, 217, 0.35);
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.banner-four-text h1 {
+    color: #000;
+    text-align: right;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-four-text p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.join {
+    color: #4F3CC8;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.join-btn {
+    display: flex;
+    width: 120px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4F3CC8;
+    border: none;
+    margin-top: 20px;
+}
+
+.join-btn a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-four-img {
+    width: 505px;
+    height: 406px;
+    background: url(/assests/img/Artboard\ 1\ 2.png), rgba(211, 211, 211, 0.048) 50% / cover no-repeat;
+}
+
+footer {
+    width: 1110px;
+    height: 288px;
+    flex-shrink: 0;
+    background: rgba(245, 193, 120, 0.103);
+    margin-top: 100px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.foot-logo {
+    width: 210px;
+    height: 57px;
+    background: url(/assests/img/Artboard\ 1\ copy\ 6\ 2.png), rgba(211, 211, 211, 0.021) 50% / cover no-repeat;
+}
+
+.foot-list ul {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.foot-list a{
+    color: black;
+}
+
+.foot-icon {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+}
+
+.foot-icon svg{
+    gap: 30px;
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 30px;
+}
+
+.right{
+    font-size: 16px;
+    font-weight: 600;
 }
