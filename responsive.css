@@ -23,6 +23,61 @@
         opacity: 1;
         background: url(/assests/img/Rectangle\ 81.png);
     }
+    
+    .first-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        gap: 175px;
+        margin-top: 50px;
+    }
+    
+    .second-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+        gap: 100px;
+        margin-top: 50px;
+    }
+    
+    .name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-left: 50px;
+    }
+
+    .contact-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+    .banner-four {
+        width: 1000px;
+        height: 420px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: rgba(217, 217, 217, 0.35);
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    footer {
+        width: 1000px;
+        height: 288px;
+        flex-shrink: 0;
+        background: rgba(245, 193, 120, 0.103);
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -54,6 +109,149 @@
         opacity: 1;
         background: url(/assests/img/Rectangle\ 81.png);
     }
+
+    .first-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+        gap: 175px;
+        margin-top: 50px;
+    }
+
+    .first-name input {
+        width: 180px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+    
+    .second-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    .surname input {
+        width: 180px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+
+    .email input {
+        width: 480px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+
+    .subject input {
+        width: 480px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+    
+    .name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-left: 50px;
+    }
+
+    .inputs {
+        width: 550px;
+    }
+
+    .contact-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+    .contact-img {
+        width: 450px;
+        height: 333.333px;
+        flex-shrink: 0;
+        background: url(/Traverse/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
+    }
+
+    .input-text {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .banner-four {
+        width: 950px;
+        height: 420px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: rgba(217, 217, 217, 0.35);
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .banner-four-text p {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    footer {
+        width: 950px;
+        height: 288px;
+        flex-shrink: 0;
+        background: rgba(245, 193, 120, 0.103);
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -84,6 +282,188 @@
         border-radius: 32px;
         opacity: 1;
         background: url(/assests/img/Rectangle\ 81.png);
+    }
+
+    .banner-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 50px;
+    }
+
+    .banner-one-img {
+        width: 350px;
+        height: 400px;
+        border-radius: 129px;
+        background: #D9D9D9;
+        border-radius: 129px;
+        background: url(/Traverse/assests/img/Rectangle\ 88.png), lightgray 50% / cover no-repeat;
+    }
+
+    .main-text {
+        font-size: 12px;
+        font-family: 'Poppins';
+        margin-top: 20px;
+    }
+
+    .first-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 850px;
+        gap: 175px;
+        margin-top: 50px;
+    }
+
+    .first-name input {
+        width: 180px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+    
+    .second-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 850px;
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    .surname input {
+        width: 180px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+
+    .email input {
+        width: 480px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+
+    .subject input {
+        width: 480px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+    
+    .name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-left: 50px;
+    }
+
+    .inputs {
+        width: 550px;
+    }
+
+    .contact-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+    .contact-img {
+        width: 350px;
+        height: 333.333px;
+        flex-shrink: 0;
+        background: url(/Traverse/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
+    }
+
+    .input-text {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .banner-four {
+        width: 850px;
+        height: 420px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: rgba(217, 217, 217, 0.35);
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .banner-four-text p {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    .banner-four-text h1 {
+        color: #000;
+        text-align: right;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .banner-four-img {
+        width: 400px;
+        height: 406px;
+        background: url(/Traverse/assests/img/Artboard\ 1\ 2.png), rgba(211, 211, 211, 0.048) 50% / cover no-repeat;
+    }
+
+
+    footer {
+        width: 850px;
+        height: 288px;
+        flex-shrink: 0;
+        background: rgba(245, 193, 120, 0.103);
+        margin-top: 100px;
     }
 }
 
@@ -186,6 +566,231 @@
     .hero-btn2 a {
         font-family: 'Clash Display';
         color: #fff;
+    }
+
+    .banner-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 50px;
+    }
+    
+    .banner-one-heading {
+        color: #1E293D;
+        font-family: SF Pro Display;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .banner-one-img {
+        width: 350px;
+        height: 400px;
+        border-radius: 129px;
+        background: #D9D9D9;
+        border-radius: 129px;
+        background: url(/Traverse/assests/img/Rectangle\ 88.png), lightgray 50% / cover no-repeat;
+    }
+
+    .main-text {
+        font-size: 9px;
+        font-family: 'Poppins';
+        margin-top: 20px;
+    }
+
+    .p-heading {
+        color: #000;
+        font-family: SF Pro Display;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .p-text {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .banner-two-img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .banner-two-img img {
+        width: 100%;
+    }
+
+    .first-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+        gap: 90px;
+        margin-top: 50px;
+    }
+
+    .first-name input {
+        width: 150px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+    
+    .second-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .surname input {
+        width: 150px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+
+    .email input {
+        width: 350px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+
+    .subject input {
+        width: 350px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #1E293D;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        outline: none;
+    }
+    
+    .name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-left: 50px;
+    }
+
+    .inputs {
+        width: 450px;
+    }
+
+    .contact-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+    .contact-img {
+        width: 350px;
+        height: 333.333px;
+        flex-shrink: 0;
+        background: url(/Traverse/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
+    }
+
+    .input-text {
+        color: #000;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .banner-four {
+        width: 700px;
+        height: 420px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: rgba(217, 217, 217, 0.35);
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .banner-four-text p {
+        color: #000;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+    }
+
+    .banner-four-text h1 {
+        color: #000;
+        text-align: right;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .banner-four-img {
+        width: 400px;
+        height: 406px;
+        background: url(/Traverse/assests/img/Artboard\ 1\ 2.png), rgba(211, 211, 211, 0.048) 50% / cover no-repeat;
+    }
+
+
+    footer {
+        width: 700px;
+        height: 288px;
+        flex-shrink: 0;
+        background: rgba(245, 193, 120, 0.103);
+        margin-top: 100px;
+    }
+
+    .foot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     }
 }
 
