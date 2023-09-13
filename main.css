@@ -740,7 +740,7 @@ marquee>div {
 }
 
 footer {
-    width: 1110px;
+    width: 100%;
     height: 288px;
     flex-shrink: 0;
     background: rgba(245, 193, 120, 0.103);
