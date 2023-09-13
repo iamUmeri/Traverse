@@ -113,7 +113,7 @@ body {
     border: none;
     border-radius: 32px;
     opacity: 1;
-    background: url(/Traverse/assests/img/Rectangle\ 81.png);
+    background: url(/assests/img/Rectangle\ 81.png)
 }
 
 .hero-background {
@@ -419,7 +419,7 @@ marquee>div {
     border-radius: 129px;
     background: #D9D9D9;
     border-radius: 129px;
-    background: url(/Traverse/assests/img/Rectangle\ 88.png), lightgray 50% / cover no-repeat;
+    background: url(/assests/img/Rectangle\ 88.png), lightgray 50% / cover no-repeat;
 }
 
 .banner-one-btn {
@@ -537,7 +537,7 @@ marquee>div {
     width: 500px;
     height: 333.333px;
     flex-shrink: 0;
-    background: url(/Traverse/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/assests/img/Artboard\ 3\ 1.png), lightgray 50% / cover no-repeat;
 }
 
 .first-name {
@@ -736,7 +736,7 @@ marquee>div {
 .banner-four-img {
     width: 505px;
     height: 406px;
-    background: url(/Traverse/assests/img/Artboard\ 1\ 2.png), rgba(211, 211, 211, 0.048) 50% / cover no-repeat;
+    background: url(/assests/img/Artboard\ 1\ 2.png), rgba(211, 211, 211, 0.048) 50% / cover no-repeat;
 }
 
 footer {
@@ -757,7 +757,7 @@ footer {
 .foot-logo {
     width: 210px;
     height: 57px;
-    background: url(/Traverse/assests/img/Artboard\ 1\ copy\ 6\ 2.png), rgba(211, 211, 211, 0.021) 50% / cover no-repeat;
+    background: url(/assests/img/Artboard\ 1\ copy\ 6\ 2.png), rgba(211, 211, 211, 0.021) 50% / cover no-repeat;
 }
 
 .foot-list ul {
