@@ -734,14 +734,14 @@ marquee>div {
 .banner-four-img {
     width: 505px;
     height: 406px;
-    background: url(/assests/img/Artboard\ 1\ 2.png), lightgray 50% / cover no-repeat;
+    background: url(/assests/img/Artboard\ 1\ 2.png), rgba(211, 211, 211, 0.048) 50% / cover no-repeat;
 }
 
 footer {
     width: 1110px;
     height: 288px;
     flex-shrink: 0;
-    background: rgba(245, 193, 120, 0.20);
+    background: rgba(245, 193, 120, 0.103);
     margin-top: 100px;
 }
 
@@ -749,6 +749,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 70px;
 }
 
 .foot-logo {
@@ -759,8 +760,33 @@ footer {
 
 .foot-list ul {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.foot-list a{
+    color: black;
+}
+
+.foot-icon {
+    display: flex;
     /* align-items: flex-start; */
-    gap: 16px;
+    justify-content: center;
+}
+
+.foot-icon svg{
+    gap: 30px;
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 30px;
+}
+
+.right{
+    font-size: 16px;
+    font-weight: 600;
 }
