@@ -752,13 +752,13 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 70px;
-    margin-top: 30px;
 }
 
 .foot-logo {
     width: 210px;
     height: 57px;
     background: url(/assests/img/Artboard\ 1\ copy\ 6\ 2.png), rgba(211, 211, 211, 0.021) 50% / cover no-repeat;
+    margin-top: 30px;
 }
 
 .foot-list ul {
@@ -767,6 +767,7 @@ footer {
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
+    margin-top: 30px;
 }
 
 .foot-list a {
@@ -781,12 +782,13 @@ footer {
 
 .foot-icon svg {
     gap: 30px;
+    margin-top: 30px;
 }
 
 .copyright {
     text-align: center;
     font-family: 'Poppins';
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .right {
