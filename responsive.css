@@ -330,6 +330,82 @@
         font-family: 'Clash Display';
         color: #fff;
     }
+
+    .first-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        gap: 75px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    
+    .second-set {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        gap: 50px;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .banner-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 100px;
+        flex-direction: column;
+    }
+
+    .banner-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .contact-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .banner-four {
+        width: 600px;
+        height: auto;
+        border-radius: 32px;
+        background: rgba(217, 217, 217, 0.35);
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    footer {
+        width: 600px;
+        height: 288px;
+        flex-shrink: 0;
+        background: rgba(245, 193, 120, 0.103);
+        margin-top: 100px;
+    }
+    
+    .foot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 70px;
+    }
 }
 
 @media screen and (max-width: 700px) {
